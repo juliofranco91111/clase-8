@@ -12,12 +12,13 @@ p{
 header{
     background-color: #E5E5E5;
     height: 189px;
+    margin-bottom: 120px;
     width: 100%;
-    margin-bottom: 110px;
 }
 
 header>img{
     display: block;
+    padding-top: 15px;
     height: 147px;
     margin: 0px auto;
     width: 100px;
@@ -28,17 +29,17 @@ header>h1{
     color: #005677;
     font-size: 35px;
     font-family: Times New Roman;
+    font-weight: bold;
+    letter-spacing: 10px;
     text-align: center;
     word-spacing: 5px;
-    letter-spacing: 10px;
-    font-weight: bold;
     
 
 }
 
 section{
-    width: 75%;
     margin: 0px auto;
+    width: 75%;
 }
 
 section ul.list-section{
@@ -46,18 +47,18 @@ section ul.list-section{
 }
 
 section ul.list-section li p.p-list{
-    padding-left: 75px;
     margin-bottom: 10px;
+    padding-left: 75px;
 }
 
 
 
 section > h3{
+    background-color: #C4C4C4;
     color: #005677;
     font-size: 20px;
-    padding: 3px 10px;
     letter-spacing: 7px;
-    background-color: #C4C4C4;
+    padding: 3px 10px;
 
 }
 
@@ -67,21 +68,21 @@ section ul{
 
 footer{
     background-color: #005677;
+    bottom: 0px;
     color: #fff;
     font-size: 20px;
     height: 37px;
     line-height: 40px;
-    text-align: center;
     position: fixed;
+    text-align: center;
     width: 100%;
-    bottom: 0px;
 }
 
 footer ul {
     display: flex;
-    width: 20%;
     list-style: none;
     margin: 0px auto;
+    width: 20%;
 }
 
 footer ul li {
