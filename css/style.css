@@ -1,45 +1,101 @@
 body{
-    background-color: white;
+    background-color: rgba(235, 144, 59, 0.9);
     margin: 0px;
     padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
 p{
     margin: 0px;
     padding: 0px;
+    font-size: 20px;
 }
 
 header{
-    background-color: #E5E5E5;
-    height: 189px;
-    margin-bottom: 120px;
+    background-image: url('https://cdn.hipwallpaper.com/i/90/30/YFevEV.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
     width: 100%;
+    text-align: center;
+    padding-top: 50px;
 }
 
-header>img{
+
+header>div>img{
     display: block;
     padding-top: 15px;
-    height: 147px;
+    height: 160px;
     margin: 0px auto;
-    width: 100px;
 }
 
 header>h1{
-    background-color: #C4C4C4;
-    color: #005677;
+    background-color:rgba(255, 255 ,255, 0.9);
+    color: #2b4663;
     font-size: 35px;
-    font-family: Times New Roman;
     font-weight: bold;
+    margin-bottom: 60px;
     letter-spacing: 10px;
     text-align: center;
     word-spacing: 5px;
-    
+    font-family: 'Poppins', sans-serif;   
 
 }
+
+header>nav {
+    height: 50px;
+    padding: 20px;
+    
+}
+
+header>nav>a {
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    color: #2b4663;   
+    font-weight: 700;
+    padding: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    width: 250px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+header div.img-cover{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255 ,255, 0.9);
+    margin: 0px auto;
+    border-radius: 999%;
+}
+
+main{
+    padding-bottom: 50px;
+    
+}
+
 
 section{
     margin: 0px auto;
     width: 75%;
+    background-color: rgba(255, 255 ,255, 0.8);
+    border-radius: 0px 0px 5px 5px;
+    
+}
+
+.list-ul{
+    padding-left: 50px;
+}
+
+section ul{
+    padding: 30px;
+}
+
+section ul li{
+    font-size: 20px;
 }
 
 section ul.list-section{
@@ -48,17 +104,22 @@ section ul.list-section{
 
 section ul.list-section li p.p-list{
     margin-bottom: 10px;
-    padding-left: 75px;
+    padding-left: 55px;
+}
+
+.p-about{
+    padding: 20px;
 }
 
 
-
 section > h3{
-    background-color: #C4C4C4;
+    background-color: rgb(72, 179, 127);
     color: #005677;
     font-size: 20px;
     letter-spacing: 7px;
     padding: 3px 10px;
+    font-family: 'Poppins', sans-serif;
+
 
 }
 
@@ -67,7 +128,7 @@ section ul{
 }
 
 footer{
-    background-color: #005677;
+    background-color: rgb(43, 70, 99);
     bottom: 0px;
     color: #fff;
     font-size: 20px;
